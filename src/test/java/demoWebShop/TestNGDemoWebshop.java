@@ -44,6 +44,7 @@ public class TestNGDemoWebshop {
 
 		driver.findElement(By.xpath("//input[@id='Email']")).sendKeys("sonali.k@gmail.com");
 		driver.findElement(By.xpath("//input[@id='Password']")).sendKeys("Password");
+		Thread.sleep(2000);
 		driver.hideKeyboard();
 		driver.findElement(By.xpath("//input[@value=\"Log in\"]")).click();
 	}
